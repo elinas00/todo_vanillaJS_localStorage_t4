@@ -78,6 +78,7 @@ function deleteTask(index){
 
 function doneTask(index){
     
+    // fakeDataBase[index].ready = !fakeDataBase[index].ready;
     let taskObject = fakeDataBase[index];
     taskObject.ready = !taskObject.ready;
     renderFakeData();
